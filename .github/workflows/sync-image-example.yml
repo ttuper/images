@@ -26,7 +26,7 @@ jobs:
         password: 1992115t
         logout: false
         
-    - name: Use Skopeo Tools Sync Image to Docker Hub
+    - name: Use Skopeo Tools Sync Image to Docker Hub1
       run: |
          skopeo copy docker://docker.io/hhashicorp/consul:1.16.2 docker://registry.cn-hangzhou.aliyuncs.com/moon_tomorrow/consul:1.16.2
 

@@ -28,5 +28,5 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub1
       run: |
-         skopeo copy docker://docker.io/hhashicorp/consul docker://registry.cn-hangzhou.aliyuncs.com/moon_tomorrow/consul
+         skopeo copy docker://docker.io/nacos/nacos-server:v2.1.1 docker://registry.cn-hangzhou.aliyuncs.com/moon_tomorrow/nacos:v2.1.1
 
